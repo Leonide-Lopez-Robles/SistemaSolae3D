@@ -1,0 +1,775 @@
+Unity Editor version:    6000.6.4f1 (12bfff696524)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              NO
+System name:             Linux
+Distro version:          #202607241434~1787955023~24.04~38a419f SMP PREEMPT_DYNAMIC Fri A
+Kernel version:          7.1.5-76070105-generic
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        15832 MB
+Date:                    2026-10-20T02:01:00Z
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 279)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 281)
+VBCSCompiler prewarm took 9.80 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-leonideslopezrobles" at "2026-10-20T02:01:00.465377Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              5053539a1521408ab2b15ae5380df4b0
+  Correlation Id:          110aade78a35479a951b22ee012776af
+  External correlation Id: 7223210000419101651
+  Machine Id:              L0xSD04HkgOfZMjVl/dGIId3AU8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-leonideslopezrobles" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-leonideslopezrobles-notifications" at "2026-10-20T02:01:00.467953Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token 9A2iG2aIj1...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674244695131-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.02s
+Selected window backend: (null) 
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+/home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/unityhub-unity-editor-6000.6.4f1
+-projectpath
+/home/leonideslopezrobles/SistemaSolae3D
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-leonideslopezrobles
+-hubSessionId
+dc022138-fd4d-4b7c-8912-14aa0db0a476
+-accessToken
+9A2iG2aIj1aOUIakS5PfsKttWFQybF0vsI1zRe6t0JE004f
+Successfully changed project path to: /home/leonideslopezrobles/SistemaSolae3D
+/home/leonideslopezrobles/SistemaSolae3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [126546604787968]  Target information:
+
+Player connection [126546604787968]  * "[IP] 192.168.0.103 [Port] 55504 [Flags] 2 [Guid] 1024718235 [EditorId] 1024718235 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.103) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [126546604787968]  * "[IP] 192.168.122.1 [Port] 55504 [Flags] 2 [Guid] 1024718235 [EditorId] 1024718235 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.103) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [126546604787968] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [126546604787968] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 39e8e52ed5f69d6708199b169040201d
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052624
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+[Package Manager] Connected to IPC stream "Upm-259" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - /home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Tools/Unity.DataStore 
+Unity Data Store artifact dir = Library/DataStore, working dir = /home/leonideslopezrobles/SistemaSolae3DUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.4f1 (12bfff696524)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path /home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/leonideslopezrobles/SistemaSolae3D/Assets
+kGfxThreadingModeSplitJobs is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: AMD Radeon RX 6800 (radeonsi, navi21, ACO, DRM 3.64, 7.1.5-76070105-generic)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 26.1.6 (git-ffa422e53d)
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_
+clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex
+_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_mesh_shader GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_s
+amples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_ba
+ndwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_timeline_semaphore GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1133006176
+Initialize mono
+Mono path[0] = '/home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Managed'
+Mono path[1] = '/home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56259
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.001818 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Licensing::Client] Successfully resolved entitlement details
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in 275.732 seconds
+Domain Reload Profiling: 276207ms
+	BeginReloadAssembly (89ms)
+		CreateAndSetChildDomain (10ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (303ms)
+		LoadAssemblies (79ms)
+		TypeCache.Refresh (206ms)
+			TypeCache.ScanAssembly (193ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (275733ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (275351ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 61 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.recorder@5.1.7 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.recorder@0b23bb7a1fb4)
+    com.unity.visualscripting@1.9.12 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.bindings.openimageio@1.0.2 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.bindings.openimageio@94e2abc0bc65)
+    com.unity.searcher@4.9.5 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.render-pipelines.universal@c6775e9427cb)
+    com.unity.test-framework@1.8.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.test-framework@33f8a1e9aefd)
+    com.unity.timeline@6.6.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.timeline@9cd41035b3ab)
+    com.unity.ugui@2.6.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.ugui@88d0d51315d3)
+    com.unity.modules.accessibility@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.ext.nunit@508b95ff9afe)
+    com.unity.render-pipelines.core@17.6.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.render-pipelines.core@514690c4e8b0)
+    com.unity.shadergraph@17.6.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.shadergraph@03900dfca927)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.render-pipelines.universal-config@b1357eef5cd3)
+    com.unity.collections@6.6.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.collections@431b1d558060)
+    com.unity.graph-authoring@1.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.graph-authoring@f8926ccf2c8f)
+    com.unity.burst@2.0.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.burst@c3ed5b778d56)
+    com.unity.test-framework.performance@6.6.0 (location: /home/leonideslopezrobles/SistemaSolae3D/Library/PackageCache/com.unity.test-framework.performance@530c2523cea5)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+Starting: /home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/leonideslopezrobles/SistemaSolae3D
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 0s207ms
+[712/938    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.18 seconds), 1 items updated, 938 evaluated
+AssetDatabase: script compilation time: 0.864992s
+Total cache size 119351480
+Total cache size after purge 119351480, took 00:00:00.1487821
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.79 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.992 seconds
+Domain Reload Profiling: 1881ms
+	BeginReloadAssembly (199ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (614ms)
+		LoadAssemblies (325ms)
+		TypeCache.Refresh (152ms)
+			TypeCache.ScanAssembly (141ms)
+		AnalyzeDomain (66ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (993ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Starting new worker id: 0 with log in /home/leonideslopezrobles/SistemaSolae3D/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=a47da419b9696317c83cf3d8dc008122): Total: 3.881 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1959 ms
+		Asset DB Callback time: managed=50 ms, native=6 ms
+		Scripting: domain reloads=1, domain reload time=948 ms, compile time=867 ms, other=48 ms
+		Project Asset Count: scripts=1432, non-scripts=2398
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 7.083ms
+	ApplyChangesToAssetFolders: 0.426ms
+	Scan: 437.893ms
+	Collect global state as custom dependencies: 14.063ms
+	CategorizeScriptCompilationAssets: 113.123ms
+	ProcessAssetsWithTransientArtifactChanges: 88.426ms
+	CategorizeAssets: 55.823ms
+	CompileScripts: 866.563ms
+	ImportOutOfDateAssets: 1071.826ms (1005.655ms without children)
+		UnloadImportedAssets: 4.381ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.084ms
+		ImportSchedulerStart: 60.666ms
+	PostProcessAllAssets: 50.798ms
+		MonoPostProcessAllAssets: 50.704ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 19.067ms
+			SyncVS.PostprocessSyncProject 8.843ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.679ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.613ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.870ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.575ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.493ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.250ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.235ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.201ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.165ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.160ms
+	UnloadStreamsBegin: 2.311ms
+	PersistCurrentRevisions: 0.144ms
+	GenerateScriptTypeHashes: 1.248ms
+	GenerateScriptTypeSerializationHashes: 2.290ms
+	Untracked: 1171.180ms
+
+Application.AssetDatabase Initial Refresh End
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+AutoLocale: current locale expects 'C' but got 'es_MX.UTF-8'/home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Tools/UnityShaderCompiler: /usr/lib/x86_64-linux-gnu/libtinfo.so.6: no version information available (required by /home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Tools/libdxcompiler.so)
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Scanning for USB devices : 6.507ms
+Initializing Unity extensions:
+UpdateMenuTitleForLanguage: 10
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-SistemaSolae3D
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            6.033 ms
+	Integration:            15.897 ms
+	Integration of assets:  0.025 ms
+	Thread Wait Time:       0.006 ms
+	Total Operation Time:   21.962 ms
+Unloading 6794 unused Assets / (11.2 MB). Loaded Objects now: 7923.
+Memory consumption went from 229.9 MB to 218.7 MB.
+Total: 14.059534 ms (FindLiveObjects: 0.481311 ms CreateObjectMapping: 0.264114 ms MarkObjects: 7.652647 ms  DeleteObjects: 5.418778 ms)
+
+[LAYOUT] About to load UserSettings/Layouts/default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
+Unhandled description string [
+Unhandled description string ]
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+[LAYOUT] About to save layout /home/leonideslopezrobles/SistemaSolae3D/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /home/leonideslopezrobles/.config/unity3d/Preferences/Editor-5.x/Layouts/current/default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+Unhandled description string [
+Unhandled description string ]
+Disable old input system
+[Project] Loading completed in 283.447 seconds
+	Project init time: 				281.376 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.179 seconds
+		Asset Database init time: 		0.176 seconds
+		Global illumination init time: 	0.004 seconds
+		Assemblies load time: 			276.240 seconds
+		Unity extensions init time: 	0.037 seconds
+		Asset Database refresh time: 	3.887 seconds
+	Scene opening time: 			1.748 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792461943908,"processId":259,"projectLoad":283.44697559499997,"projectInit":281.376093773,"templateInit":0.0,"packageManagerInit":0.179232737,"assetDatabaseInit":0.175926481,"globalIlluminationInit":0.003915115,"assembliesLoad":276.239883906,"unityExtensionsInit":0.03664492,"assetDatabaseRefresh":3.887475715,"sceneOpening":1.747948925}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792461943908,"processId":259,"editorVersion":"6000.6.4f1 (12bfff696524)","branch":"6000.6/staging","buildType":"Release","platform":"Linux"}
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=5fe6b493c27e0b4aca551060e7b1c326): Total: 0.157 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=17544baf8e2ac5b2f9079259199bf16a): Total: 0.059 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+The current platform does not support the raw buffer path that the GPU Resident Drawer requires.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.GPUResidentDrawer:LogMessage (string,UnityEngine.LogType) (at ./Library/PackageCache/com.unity.render-pipelines.core@514690c4e8b0/Runtime/GPUDriven/GPUResidentDrawer.Validator.cs:122)
+UnityEngine.Rendering.GPUResidentDrawer:Recreate (UnityEngine.Rendering.GPUResidentDrawerSettings) (at ./Library/PackageCache/com.unity.render-pipelines.core@514690c4e8b0/Runtime/GPUDriven/GPUResidentDrawer.cs:395)
+UnityEngine.Rendering.GPUResidentDrawer:Reinitialize () (at ./Library/PackageCache/com.unity.render-pipelines.core@514690c4e8b0/Runtime/GPUDriven/GPUResidentDrawer.cs:342)
+UnityEngine.Rendering.IGPUResidentRenderPipeline:ReinitializeGPUResidentDrawer () (at ./Library/PackageCache/com.unity.render-pipelines.core@514690c4e8b0/Runtime/GPUDriven/IGPUResidentRenderPipeline.cs:100)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@c6775e9427cb/Runtime/Data/UniversalRenderPipelineAsset.cs:811)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:15)
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:172)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:146)
+UnityEditor.Handles:Internal_DrawCameraWithGrid (UnityEngine.Camera,UnityEditor.DrawCameraMode,UnityEditor.DrawGridParameters&,bool,bool)
+UnityEditor.Handles:DrawCameraImpl (UnityEngine.Rect,UnityEngine.Camera,UnityEditor.DrawCameraMode,bool,UnityEditor.DrawGridParameters,bool,bool,bool,UnityEngine.GameObject[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Handles/Handles.cs:1675)
+UnityEditor.Handles:DrawCameraStep1 (UnityEngine.Rect,UnityEngine.Camera,UnityEditor.DrawCameraMode,UnityEditor.DrawGridParameters,bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Handles/Handles.cs:1698)
+UnityEditor.SceneView:DoDrawCamera (UnityEngine.Rect,UnityEngine.Rect,bool&) (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2567)
+UnityEditor.SceneView:DoOnGUI () (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2891)
+UnityEditor.SceneView:OnSceneGUI () (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2799)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:387)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:716)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:573)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,System.Exception&) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderers.cs:186)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Texture,UnityEngine.UIElements.UIR.ShaderInfoAllocator,System.Nullable`1<UnityEngine.Rect>,UnityEngine.Rect,single,bool,UnityEngine.UIElements.TextureSlotCount,bool,System.Exception&,UnityEngine.UIElements.BaseVisualElementPanel) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderDevice.cs:983)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderSingleTree (UnityEngine.UIElements.UIR.RenderTree,UnityEngine.RenderTexture,UnityEngine.RectInt,UnityEngine.Rect) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderTreeManager.cs:604)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderRootTree () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderTreeManager.cs:549)
+UnityEngine.UIElements.UIRRepaintUpdater:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRepaintUpdater.cs:160)
+UnityEngine.UIElements.BaseVisualElementPanel:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1040)
+UnityEngine.UIElements.Panel:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1851)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event) (at /home/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorEventDispatchUtility.cs:62)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event) (at /home/bokken/build/output/unity/unity/Modules/UIElementsEditor/WindowBackends/DefaultWindowBackend.cs:114)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&) (at /home/bokken/build/output/unity/unity/Editor/Mono/GUIView.cs:70)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.core@514690c4e8b0/Runtime/GPUDriven/GPUResidentDrawer.Validator.cs Line: 122)
+
+Created GICache directory at /home/leonideslopezrobles/.var/app/com.unity.UnityHub/cache/unity3d/GiCache. Took: 0.004s, timestamps: [283.939 - 283.944]
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "9A2iG2aI"... (expires: 2026-10-17T23:13:21Z)
+[Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 1 with log in /home/leonideslopezrobles/SistemaSolae3D/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 3d5a09c81dc527545a1051b2e9b1a646 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/ImageRecorder/ImageRecorderEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '166122376c6747b692e0055364c3d5f1') in 0.09820399 seconds
+Starting new worker id: 2 with log in /home/leonideslopezrobles/SistemaSolae3D/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: e4bb72229b8d7164699429e044cc54f1 - Path: Packages/com.unity.recorder/Editor/Sources/Helpers/CompressionUtility.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd1ada8d9bd827be33bcee3950a56f8b6') in 0.009553554 seconds
+[Worker0] Imported GUID: 7c66a740a74845a08dc18bab7f2ffa03 - Path: Packages/com.unity.recorder/Editor/Sources/RecorderWindow.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '73253da5433990a5eec374596c3d96de') in 0.009002813 seconds
+[Worker0] Imported GUID: c2a9d01897f7b7f4c805888419149969 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/IEncoderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2197d2bccfa11efefe57148d9b554057') in 0.009466612 seconds
+[Worker0] Imported GUID: 3d27b31dc27841cc9fa370de2f754b58 - Path: Packages/com.unity.recorder/Editor/Sources/EnumProperyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e1e47c46daaa805bb70619d963cd32ad') in 0.009036656 seconds
+[Worker0] Imported GUID: 3d6d984292b88004cb3e8a29df8b439a - Path: Packages/com.unity.bindings.openimageio/Third Party Notices.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c1db5aaa4e055f9794f154a71d170d98') in 0.010356366 seconds
+[Worker0] Imported GUID: 85148e7c451fe2c49a95da1805155d6b - Path: Packages/com.unity.recorder/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3462bac5ba139ec81d6b62005b3185ae') in 0.009522356 seconds
+[Worker0] Imported GUID: 2b42744b37cbc484fa70d7767d36747d - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera/Shaders/ProResPixelOptimizer.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '919a00a99aebb9dcb1ea075579234e86') in 0.01483239 seconds
+[Worker0] Imported GUID: f38b61f046ac0d745a8f9f98faa67b72 - Path: Packages/com.unity.recorder/Plugins/Windows/ARM64/GIFWrapper.dll - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a57452221d87d56b5caf973ff8f4b203') in 0.016571814 seconds
+[Worker0] Imported GUID: 353e2768e273425dbca885d53f6f1c36 - Path: Packages/com.unity.recorder/Editor/Sources/RecorderSettingsPrefsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7ea7706ab647658a67598faf581f94d2') in 0.010505134 seconds
+[Worker0] Imported GUID: 6d80688849564584188eda136c5243b6 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Audio - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f8ca8d828d6e6d2735cb601741cdb0bc') in 0.009766923 seconds
+[Worker0] Imported GUID: da5cc1aa206046778abe29c0c0c90d54 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AudioRecorder/AudioRecorderEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '45be0f09ea97e139b289e649b0d29252') in 0.009589531 seconds
+[Worker0] Imported GUID: 885a9dcb3d2df3d4e804487e0424b277 - Path: Packages/com.unity.recorder/Editor/Timeline - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8c89f7dbdf15c40b3b9a54b4675bf8bc') in 0.009366344 seconds
+[Worker0] Imported GUID: f1e95aa6d658d694785bfde37c857fff - Path: Packages/com.unity.recorder/Editor/Timeline/RecorderClip.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bd271179e6d743dafe59153028c6db2b') in 0.008975252 seconds
+[Worker0] Imported GUID: d2393694afb74044184d045c922bbe22 - Path: Packages/com.unity.recorder/Editor/Sources/AccumulationSettingsPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c08830276b9acab47274f3175344e605') in 0.009454228 seconds
+[Worker0] Imported GUID: 863996e4edcb5b04ea58bf8223641884 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/WEBM/WEBMRecorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7aa75f13fc5b325c07463e6ee3ff2a72') in 0.009104053 seconds
+[Worker0] Imported GUID: 0808b4ae0e5a40bc818e43f28ebe29e2 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AnimationRecorder/AnimationRecorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1eed697aaacaff4b006b27fbd443c12d') in 0.009199592 seconds
+[Worker0] Imported GUID: 93d9e307ddb2440e1b00f36c93da4ddf - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/GameViewSize.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ef279ca50abbca6633698f839efc1f0a') in 0.009467022 seconds
+[Worker0] Imported GUID: 5537212fe2c4414c9a0cdd7ba0728908 - Path: Packages/com.unity.recorder/Editor/Sources/RecorderControllerSettingsPreset.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '57c8f4f1a0936a1738301b514db4d0c5') in 0.01000067 seconds
+[Worker0] Imported GUID: 72aed44f050841cd8c96c42fb0245008 - Path: Packages/com.unity.recorder/Editor/Sources/VisualListItem.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'aa8ee4befec01bcfdabd49415308b5d8') in 0.009934105 seconds
+[Worker0] Imported GUID: 8b1e2b58ac533b44e8f58c03940cf38f - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/CoreEncoderSettingsPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a8f24671093f7a71d9b29d9faf7802cc') in 0.009695238 seconds
+[Worker0] Imported GUID: 8af856e55aba3a842bb65372ce3b86ce - Path: Packages/com.unity.recorder/Editor/Unity.Recorder.Editor.api - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '192032f6b55360d615168b6d46cec669') in 0.011473556 seconds
+[Worker0] Imported GUID: c65eb0e897ba0c84da8868303d21a17f - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/EXR/EXRRecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5d9a3ca86e45e5a6d1241eaf465873cd') in 0.009429181 seconds
+[Worker0] Imported GUID: 33760b2112924a708eb6ae28468a3d62 - Path: Packages/com.unity.recorder/Editor/Sources/InputSettingsSelectorDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e8559526b150609f56bec1eb677c3933') in 0.009072424 seconds
+[Worker0] Imported GUID: 8199d32e6bec98e45ae1e2ed4167c267 - Path: Packages/com.unity.recorder/LICENSE.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '215d19d89702e283a68bc3b7f52332bf') in 0.009881707 seconds
+[Worker0] Imported GUID: 8c2a8241711244cd8e9a9eff1b6f95fe - Path: Packages/com.unity.recorder/Editor/Sources/RecorderController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2baa84ccec87a081728b890eecce5e8d') in 0.009491938 seconds
+[Worker0] Imported GUID: be959353d7114bf49a8e4f4e9a342714 - Path: Packages/com.unity.recorder/Editor/Sources/ImageInputSelector.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '98148851fdd01e72736c7a2464072b8f') in 0.009146803 seconds
+[Worker0] Imported GUID: 06397f605c749fe4dbe2df4bbd1ef4a1 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/ImageRecorder/ImageRecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd9b7a8047b0ef66b6e2592e2b99dd1c1') in 0.009826985 seconds
+[Worker0] Imported GUID: e8b5b0ea32f73c24980646e5ee0b1be9 - Path: Packages/com.unity.bindings.openimageio/Plugins/Windows - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1a83b9fb71c29caaab3cc2ca18a7fe97') in 0.009967558 seconds
+[Worker0] Imported GUID: a95cc60500f985d458e4f1b1af26903f - Path: Packages/com.unity.recorder/Editor/Sources/FileNameGenerator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f74e2733d40a8ce516ed3572d8680325') in 0.010303828 seconds
+[Worker0] Imported GUID: c54a04bf7a096dd47a1e8a7279bd8ce7 - Path: Packages/com.unity.recorder/Editor/Sources/RecorderBindingsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cf777025e2465b6a9fb85b53c04433e0') in 0.009733591 seconds
+[Worker0] Imported GUID: 35f4f3fdb828cf04195e11116e55137a - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/CoreEncoderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4368f10878e141c7833d26b7ac4b04d4') in 0.011532737 seconds
+[Worker0] Imported GUID: f6b67cb5dd838ac4fbd07f048a0235af - Path: Packages/com.unity.recorder/Editor/Sources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1a378e143de983bc553579da55717774') in 0.010005028 seconds
+[Worker0] Imported GUID: 929eb00022f1636468a7444a3795ce85 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e3d4b801d9c123dfdb2d096b241aeac5') in 0.011079188 seconds
+[Worker0] Imported GUID: 1ba8d1176c817374b97c04409a853fc5 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/ImageRecorder/ImageRecorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3ee44fa3dba80cb9ce07c148f7691dab') in 0.009272919 seconds
+[Worker0] Imported GUID: b54fab5cb1f84d044835a48fe603969c - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/PNG/PNGRecorderSettingsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '828da3ed5c9ae01ad414b79eaac2af06') in 0.009337239 seconds
+[Worker0] Imported GUID: 35e78ae7de177d440969878b883fc095 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/EXR/EXRRecorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a1a776ae2929b3d4b64f22ec42d5c7ec') in 0.01028391 seconds
+[Worker0] Imported GUID: a479eae5fdf009c44a707c2f0a6fd161 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/GifEncoder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd71f92a664bded682dda0a83ec96296d') in 0.009371473 seconds
+[Worker0] Imported GUID: 567697124db74893a6630e6dddf4735b - Path: Packages/com.unity.bindings.openimageio/README.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '20dead66e11e397df0ab453fb642c25d') in 0.010229438 seconds
+[Worker0] Imported GUID: 0a97d971fb4e03f41b27d50d0e59b7a5 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera/Shaders/CopyFB.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '075cd13cdbabf5e1241fb1d80d0a2623') in 0.010256118 seconds
+[Worker0] Imported GUID: f2ff785a344874d429edb7be0065d286 - Path: Packages/com.unity.bindings.openimageio/Tests/Editor/Data/OIIOImageRef.exr - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '13e4cd8b82bf2e39bb4bda8f07d0eae9') in 0.043666837 seconds
+[Worker0] Imported GUID: f482d23ae5c5c16468b9bec7d87e7d62 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera360/Camera360InputSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd0cb9f46b1be8600a0dba6f5d03d0aca') in 0.0118764 seconds
+[Worker0] Imported GUID: 9fbdde80842e6fd4b800e9472a64d930 - Path: Packages/com.unity.bindings.openimageio/Plugins/Windows/ARM64/OIIOBindings.dll - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fac6c4f28c0124b33ba1f091e25fcf60') in 0.010482132 seconds
+[Worker0] Imported GUID: 56a69bd00566e3848856feb3febf2d6c - Path: Packages/com.unity.recorder/Editor/Assets/d_animation_recorder.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f84d024422af98604e29d2a77c532206') in 0.012093717 seconds
+[Worker0] Imported GUID: 6a1c0170443877e4ebae7daaf96be29a - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AOVRecorder/AOVRecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '93a56b6d4e12b2bcc97103943dc29456') in 0.009776271 seconds
+[Worker0] Imported GUID: 3d0cc8567a67db240a4e84b0ea062245 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera/CameraInput.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b1df6d581c6e4c2bde3066ed584e431e') in 0.009918497 seconds
+[Worker0] Imported GUID: 5b7ce254a486bc84fbe5c25016270005 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/WEBM - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1110df997b51efc5d2cce50617c6d234') in 0.009772243 seconds
+[Worker0] Imported GUID: 0f2517b2b29d452693b38a6bc3fc0b89 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/PostProcessor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a58ed1c7c628fc4a8a940a128ccac288') in 0.00956787 seconds
+[Worker0] Imported GUID: b069c58005985f84f974fc0606bf18c1 - Path: Packages/com.unity.recorder/Editor/Sources/Helpers/HdrpHelper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7bdca2e90aa973e8c128a76ccf20b4c7') in 0.009008834 seconds
+[Worker0] Imported GUID: 4d5c203eea834b8383f3e6cd60d35f12 - Path: Packages/com.unity.bindings.openimageio/Tests/Editor/OIIOBindingsTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '393cb9632dc4b1105916c8441f6a8094') in 0.009218988 seconds
+[Worker0] Imported GUID: 735c70ee605a363489603a301ccf9001 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9f16085785c3a0254a8bdf8f4329559a') in 0.009276756 seconds
+[Worker0] Imported GUID: 10c61a46c5f85e1438218174056c0382 - Path: Packages/com.unity.recorder/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '732e222fc5708feebfc668102ab67d1b') in 0.010297696 seconds
+[Worker0] Imported GUID: 07c345f766ec40c29e3e0926c05bc2f6 - Path: Packages/com.unity.recorder/Editor/Sources/HammersleySequence.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3edd916508634348aacdf95bf78708df') in 0.009325317 seconds
+[Worker0] Imported GUID: 9b9f59dbe78d8ab43ad96132525a4ce7 - Path: Packages/com.unity.recorder/Editor/Sources/ImageHeightSelector.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c1c466d1a301695b53c7125ba5ce87a2') in 0.010735575 seconds
+[Worker0] Imported GUID: 8819f7c7319cb654c8830b774486ed1d - Path: Packages/com.unity.bindings.openimageio/Tests - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8b59fb3ef82bd2ef7206c0cb55f4ec43') in 0.009059619 seconds
+[Worker0] Imported GUID: 30367e3cf22ff0c4489cf8fa4949b1f0 - Path: Packages/com.unity.recorder/Editor/ProRes - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '17551811c1bbe40e865c354876e1b3fa') in 0.009307474 seconds
+[Worker0] Imported GUID: 6b02ea40fa98f4a43822fc330e5204a2 - Path: Packages/com.unity.recorder/Editor/Sources/EXRCompressionTypeDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4accc2301014456e305d8bacdd3c24ba') in 0.009287826 seconds
+[Worker0] Imported GUID: b40ab971983db224096ede991ada69f9 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/EncoderSettingsAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c47418a7c302fa0c231c1ba523453ce9') in 0.009056534 seconds
+[Worker0] Imported GUID: aa480216fe41c477a9bffc99e6730af8 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/AOV/Shaders/PostProcessor.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7c2708c14484c55e633e08643be977f3') in 0.009672326 seconds
+[Worker0] Imported GUID: bbc2d2147be22d340ae0bbc55882af71 - Path: Packages/com.unity.bindings.openimageio/Plugins/macOS/libOIIOBindings.dylib - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8f19da0590e8a3850631c11998f0e765') in 0.009954354 seconds
+[Worker0] Imported GUID: a37d0d0430e847a99dc7aae01f88942e - Path: Packages/com.unity.recorder/Editor/Sources/RenderTextureActiveGuard.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f4fb4cd26322f075a400756e3c7251bb') in 0.009405767 seconds
+[Worker0] Imported GUID: c7fe8472aebc45f4b93027b60a4003b3 - Path: Packages/com.unity.recorder/Editor/Timeline/RecorderClipEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ca5a2002952e5ee70a50445bd16494f3') in 0.009008434 seconds
+[Worker0] Imported GUID: d36c7f4b1ab29415394bf531fb4b54c8 - Path: Packages/com.unity.recorder/Editor/Sources/CameraCapture.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b549af6cc2c459928b0ac462e0c2451e') in 0.009220541 seconds
+[Worker0] Imported GUID: 44305ecb1c1dd4b49b87b982320a3abc - Path: Packages/com.unity.recorder/Editor/Assets/d_movie_16.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '27f2082a88772dd6e48bfcf4ef46bd98') in 0.019148695 seconds
+[Worker0] Imported GUID: 6df354de90964eb0b6f67f00337b73d8 - Path: Packages/com.unity.recorder/Editor/Sources/PanelSplitter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6119b54af2fc9469cf4312fd8799f33c') in 0.010104394 seconds
+[Worker0] Imported GUID: 69bb6cfa334a677488be78de2ae0d2d4 - Path: Packages/com.unity.recorder/Editor/Assets/aovimagesequence_16.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '68373c7281575e07403511e575d760e6') in 0.011134782 seconds
+[Worker0] Imported GUID: b91f080b208afff4d94678e466eeecc4 - Path: Packages/com.unity.recorder/Editor/Sources/Helpers/SerializableObjHelper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '908b4da98fbfdd37c3bff0fbb0d4b4f2') in 0.009557671 seconds
+[Worker0] Imported GUID: dce2bbb978476d445a7f1f2694e73b4b - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/ProResEncoderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '582413f2303bb66ae2bb8830d84745b8') in 0.009276535 seconds
+[Worker0] Imported GUID: e971ec30698b0bf41bd9afdd5694c8ba - Path: Packages/com.unity.recorder/Editor/Sources/GenericRecorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd46caabfe2cf6a4829667e643e1d278a') in 0.009018213 seconds
+[Worker0] Imported GUID: a24bc7e8573847adbdf1198360b3c794 - Path: Packages/com.unity.recorder/Runtime/RecorderBindings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f8e8060f6e342b45151fdbf57b9f4c92') in 0.009239526 seconds
+[Worker0] Imported GUID: 24ef331dc8f995b4582af42c51a12424 - Path: Packages/com.unity.bindings.openimageio/Editor/Unity.Bindings.OpenImageIO.Editor.api - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4896c63da2da4c46e9c61df2c588c374') in 0.009128228 seconds
+[Worker0] Imported GUID: 8c32108e0d92efe43bf433bbf6f666b0 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/EXR/EXRRecorderSettingsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '10710df22e4d7245ea47376c121581cd') in 0.008927903 seconds
+[Worker0] Imported GUID: 2b489925208325240a6246efb44d6e67 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTexture/RenderTextureInput.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '027d6322bee07f2c419fdc56dd24e40c') in 0.009272388 seconds
+[Worker0] Imported GUID: 7423fa2569ff067439a0ea70a232e2de - Path: Packages/com.unity.recorder/Editor/Sources/RecorderPreferences - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8013a82a43bccc43f933d27a27b0807b') in 0.011668922 seconds
+[Worker0] Imported GUID: f9bf5f2835771fd4d8f203a4f0e76e96 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTextureSampler - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bc4b77d9793204c84f0abed8f5d1e771') in 0.009418281 seconds
+[Worker0] Imported GUID: 9700ad97272d0dc4587c6882edb94130 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTextureSampler/Shaders/BS4SuperShader.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ab6ddb944d7ac1d3bea9f25b2df50966') in 0.009939546 seconds
+[Worker0] Imported GUID: 6578621dde5e4659927f1f4eaf1b315c - Path: Packages/com.unity.recorder/Editor/Sources/OutputResolution.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '040ef51e14754ae8a2c6fc2f7cc05818') in 0.008603106 seconds
+[Worker0] Imported GUID: 6122dab7ff1764c468a03aa29f49ea5b - Path: Packages/com.unity.recorder/Editor/Sources/_RecorderComponent.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c84c552d94d2f8a349df699712e404c5') in 0.008431695 seconds
+[Worker0] Imported GUID: 348f4b8d36e2476395e48ec521dd65d1 - Path: Packages/com.unity.recorder/Editor/Sources/OutputResolutionPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3ffe44edd5ed904a090af280365094a3') in 0.008281323 seconds
+[Worker0] Imported GUID: a8e4edca843db3b4bb41baa076395e85 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera/CameraInputSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7b4e1df8eeb45555c17039a4a3e25e9a') in 0.008495764 seconds
+[Worker0] Imported GUID: c85ec31683b364de39cd49253264fdc1 - Path: Packages/com.unity.recorder/Plugins/macOS/libGIFWrapper.bundle - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'be50d991ec2eb50ea6135943b1132532') in 0.008743067 seconds
+[Worker0] Imported GUID: f32a38f328a3d3b42ae1632e6379ef4a - Path: Packages/com.unity.bindings.openimageio/Plugins/Windows/ARM64 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bbb6668006becc5eacc6968758a8f5c2') in 0.008464446 seconds
+[Worker0] Imported GUID: 15fbef0e4d5defe47b04fbc3aec7c115 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AOVRecorder/AOVImageInputSelector.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '689e2a01ff61259b03bc24af95eba381') in 0.008501526 seconds
+[Worker0] Imported GUID: 9859176119f26664bb0e2eb2c286f293 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera/CameraInputSettingsPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '68c5e6c9134b3b6ce450a0151c72e9c8') in 0.008432537 seconds
+[Worker0] Imported GUID: bddc957f6fc080144bc6ee0c40355251 - Path: Packages/com.unity.recorder/CHANGELOG.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f4fc1dd745dee1d6644fa2c56f903531') in 0.008358397 seconds
+[Worker0] Imported GUID: df4f1ccab0b6e3a46b9036ac82d96ba9 - Path: Packages/com.unity.recorder/Editor/Assets/vertical_gradient.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '403208a481c7b7518d269db599d8544f') in 0.023395822 seconds
+[Worker0] Imported GUID: a9f55b158f7c43688c1c21ce05ac46ba - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AnimationRecorder/AnimationRecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b780afc98cfea2f3775aeffc8653a6a0') in 0.009057836 seconds
+[Worker0] Imported GUID: 1b214d139e24e30418dc1f364e2a9361 - Path: Packages/com.unity.recorder/Editor/Sources/Helpers/EnumHelper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7b0c463fe9a365819e91172e40cfb58a') in 0.009330967 seconds
+[Worker0] Imported GUID: 639bab1152ec3984184d25ab38abd226 - Path: Packages/com.unity.recorder/Editor/Sources/Helpers/UnityHelpers.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c39d9a39a05547e4335b84744b7e13cb') in 0.008881446 seconds
+[Worker0] Imported GUID: c90fbca1bb37c1d47868781f9a7557dd - Path: Packages/com.unity.recorder/Editor/Assets/d_imagesequence_16.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9027812c21f81866643b7fce5294983f') in 0.011036198 seconds
+[Worker0] Imported GUID: cae30da739b542daa7e96ab3f70fb006 - Path: Packages/com.unity.recorder/Editor/Sources/Helpers/EditorVersionsHelper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ad0af671fb355671cde12465bc7d5777') in 0.008529377 seconds
+[Worker0] Imported GUID: eb010d9e17c69d3428750677d9ffb1be - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/BaseFCRecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3c04669aadd830b27cf9bdb69549ddb7') in 0.008595201 seconds
+[Worker0] Imported GUID: 47076bc6b042d8845afcc738ee629c80 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera/Shaders/MakeOpaque.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '365ce5c46d5af5c0d807a30018d3d6ed') in 0.009379729 seconds
+[Worker0] Imported GUID: 72f71fae1910439468985ed5ed425cd2 - Path: Packages/com.unity.recorder/Editor/Sources/ShutterProfileTypePropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd943fccaa3d35f74c7c3399b9599babc') in 0.008395527 seconds
+[Worker0] Imported GUID: bed82e6bda107c14c86c6937540ff74b - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/GifEncoderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e9a27ba10d5ee8cb08689c6a998cc980') in 0.00875479 seconds
+[Worker0] Imported GUID: c837d6c30e61e4544a8ead67ce2128cc - Path: Packages/com.unity.bindings.openimageio/CHANGELOG.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f2b98976e5501d2d36a88bef604091d4') in 0.009428049 seconds
+[Worker0] Imported GUID: 061b0c1d04c01f54fa322b11b8662964 - Path: Packages/com.unity.recorder/Editor/Sources/RecordingSession.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c1f21d45e85d0803288f2415185d303e') in 0.008982525 seconds
+[Worker0] Imported GUID: 5b094dcf452f1604da1030bc50f96cf6 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5ce1305f46966528dc28544fa605c01e') in 0.009493672 seconds
+[Worker0] Imported GUID: 4d9524a47955297419b5d4858ea0e90c - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AudioRecorder/AudioRecorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c44d2de1c5de04e82abaca8cb7eb227a') in 0.008762204 seconds
+[Worker0] Imported GUID: 6bda971be788f044c91c68400f4a2ad6 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTextureSampler/RenderTextureSampler.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd1f3d106faab9b1ef9daba745f4d4b3f') in 0.008819881 seconds
+[Worker0] Imported GUID: fca86976b230bf6489cba451676ee05b - Path: Packages/com.unity.recorder/Editor/Sources/InputSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cea1974f57a3d62c2ae6e8b231ed20d4') in 0.009205723 seconds
+[Worker0] Imported GUID: 9e35a253b90b7244cb70d21db885fee8 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5c9b2819efe31c8e190a87452417b40b') in 0.008760009 seconds
+[Worker0] Imported GUID: c325a4f7bd7f8b047aa4fbd825163d85 - Path: Packages/com.unity.recorder/Editor/Sources/ImageInputSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1888ca35d7d8c6ceca7d1cc492ee7c41') in 0.008729762 seconds
+[Worker0] Imported GUID: 1dd8c8968d3848743a824ed5191b2805 - Path: Packages/com.unity.recorder/Editor/Sources/BaseRenderTextureInput.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '127003c79ced40fc762958c1ebda1c7a') in 0.008927753 seconds
+[Worker0] Imported GUID: 195c80e0a88f4aff975d21a4f4bb06fd - Path: Packages/com.unity.recorder/Editor/Sources/Helpers - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fd89028ce72d8a82b2169cf70354cd9f') in 0.008980331 seconds
+[Worker0] Imported GUID: cd2d9cfb7945c2149a6fccf31de329ae - Path: Packages/com.unity.recorder/Editor/Sources/RecorderPreferences/RecorderPreferencesSettingsProvider.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cbbf5dd3dd3336c0d301cac89b7038da') in 0.009332771 seconds
+[Worker0] Imported GUID: 464423cf3df84d8bbe4598e76cb43f6e - Path: Packages/com.unity.recorder/Editor/Sources/Helpers/StatusBarHelper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '56ec451ebc1f2cafad0ddb2ee19314b9') in 0.009281575 seconds
+[Worker0] Imported GUID: b13f307bd8d235444984a80e47dc4a8d - Path: Packages/com.unity.recorder/Editor/Sources/WriteImageFrameJob.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ed2d973885d7177718a3d7e9ce0c617e') in 0.009132526 seconds
+[Worker0] Imported GUID: 6fde0a8ac3e6b482c95fa602e65ab045 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/MovieRecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '966e78c3ba9d1f2d6d03e6de27f09d8d') in 0.009098943 seconds
+[Worker0] Imported GUID: 1355369c03257104ea9fc20dec2c8d4f - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera/Shaders/CUPacking.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1c83cb1c8642750abb52f2f8b694a96d') in 0.020046375 seconds
+[Worker0] Imported GUID: d53962d7bf5a4415ba204aea5e80e746 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Audio/AudioInput.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd21fb6727ea3cdbc21017b542f625d9f') in 0.011113453 seconds
+[Worker0] Imported GUID: ed1345f8bf983c44eabea9eb25c9dfca - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/GIFRecorder/GIFRecorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bb20dab7dd079da2da8febd6e702b28a') in 0.00865879 seconds
+[Worker0] Imported GUID: b779014d9c6a48199ddf81280a58c216 - Path: Packages/com.unity.recorder/Editor/Sources/InputSettingsSelector.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '054159a7cf63fd083e73f1263826446b') in 0.008780568 seconds
+[Worker0] Imported GUID: 49603658800682c4291237970cea566e - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera/Shaders/CUColorConversions.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '08fdf5194813072a73d65dd5a4192340') in 0.008885424 seconds
+[Worker0] Imported GUID: 1e48dcc6629339d438e7c701fa87866d - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTextureSampler/Shaders/BS4Normalize.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '97e95f7b6a1ac001ecbfe45e11c66f3d') in 0.009231061 seconds
+[Worker0] Imported GUID: 968b9307411721c4d8b07f603990d6cb - Path: Packages/com.unity.recorder/Editor/Assets - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1db15bc3fbdc6068427228c0d5b38038') in 0.009272177 seconds
+[Worker0] Imported GUID: 1371ee526aed7be40b466a711b6abff0 - Path: Packages/com.unity.recorder/Editor/Sources/RecorderPreferences/RecorderPreferencesWindowGUIScope.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ac8ade5c34a45739c9cde853a57b7947') in 0.008937191 seconds
+[Worker0] Imported GUID: 493b3fbd7e438374c8f4f23d25ebf2a1 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/PNG - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4509f4880a277dfca29265994d7b8dd6') in 0.009157243 seconds
+[Worker0] Imported GUID: 0094e0d83da4bc9459b1d86ad1e1459a - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AOVRecorder/AOVRecorderEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd941a1b594fd3227ac2f5c2369b5e738') in 0.009271907 seconds
+[Worker0] Imported GUID: 8974526d005ae444390dd14b549e88c1 - Path: Packages/com.unity.recorder/Editor/Sources/InputPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '461f8ffd79ec091ba3a246f55ec01f1a') in 0.009062194 seconds
+[Worker0] Imported GUID: fdeda375ad6e0a242b91d0215939fb69 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/GifEncoderSettingsPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ca4374c94ae5503f8b34fe30894d7356') in 0.008913216 seconds
+[Worker0] Imported GUID: 225145e129ea169449ebe485a462e36a - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTextureSampler/RenderTextureSamplerPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a0921d4e25b093a0fc76768072bb7dc3') in 0.009300059 seconds
+[Worker0] Imported GUID: 26b884e8bf1552d49b39fd7c9298b0ac - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera360 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '56c8994c171913585d7bc568ca298fe2') in 0.009321129 seconds
+[Worker0] Imported GUID: 72cd87241899a7446a3b6e2ece276a56 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTexture/RenderTextureInputSettingsPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c63622767b7ee1c07cafaf652312368a') in 0.008583949 seconds
+[Worker0] Imported GUID: 279c2992d86ba5628b6f0dfb34a07509 - Path: Packages/com.unity.recorder - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'acad5952283c0257adc6d2dc9794454e') in 0.009724654 seconds
+[Worker0] Imported GUID: 44034f3dfb9cc1b4c9e86ff509fe70f4 - Path: Packages/com.unity.recorder/Editor/Sources/OutputPath.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '45f180b6142395bfcce3afabec8dc5bb') in 0.009816857 seconds
+[Worker0] Imported GUID: d580900d83be2664c9c035d6e50791fe - Path: Packages/com.unity.recorder/Editor/Timeline/RecorderPlayableBehaviour.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7f20fc467c1a19d08693d48bb354b243') in 0.009364661 seconds
+[Worker0] Imported GUID: ed4775271d95de24194e9dad1b8e46ab - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/PNG/PNGRecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '69b7b184173746e2fa64489237ec2020') in 0.010356977 seconds
+Worker ready: AssetImportWorkerHW1 1
+[Worker0] Imported GUID: 18d12eb0cb5f5374fa4e1df839e8207f - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/IEncoder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '64f882d641bfefc451d97fe520c854c5') in 0.010408794 seconds
+[Worker0] Imported GUID: 20c54e41630e9c34c82ce6b4d4376237 - Path: Packages/com.unity.bindings.openimageio/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7bd43c05057d5b304025b664a97af227') in 0.010038672 seconds
+[Worker0] Imported GUID: 376a3e4a054478049ae94f458b5f25b1 - Path: Packages/com.unity.recorder/Editor/GIF/GIFWrapper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '34b35dab7da6a814735180048a0e8b06') in 0.008531652 seconds
+[Worker0] Imported GUID: ffa0df4e3b31c8c4a9e2facb63af80ee - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/ImageRecorder - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '00d61780207082a5f0db3da4df16b274') in 0.008557921 seconds
+[Worker0] Imported GUID: e378e9c2cad5a7e48a6931f63edd1421 - Path: Packages/com.unity.recorder/Editor/Sources/SceneHook.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e0da9a30a4406a2965e29e186fb94905') in 0.008700258 seconds
+[Worker0] Imported GUID: cb499ec071a55cd4b8f4df814a75ff88 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTexture - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0e6489a5a5e8f22422e15ace1597d81d') in 0.008306751 seconds
+[Worker0] Imported GUID: 397b1127679bcc9478508a1b5f813f41 - Path: Packages/com.unity.recorder/Plugins/Windows/GIFWrapper.dll - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a3891928871256dd00e9483080f7bca3') in 0.00919366 seconds
+[Worker0] Imported GUID: d95f112dcf873464e8d57e91c7e23e4e - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/EXR - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'eecac41b9698d27f855aa710a0f0a757') in 0.008710997 seconds
+[Worker0] Imported GUID: 3a27f7f53d34a4446996790f87e0ecb6 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cdb9905af2a868329406f2ed66396b42') in 0.008654612 seconds
+[Worker0] Imported GUID: 0b98f6018ba7d5043818c9ccb78d0aab - Path: Packages/com.unity.recorder/Editor/GIF - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '09860b9ecc5a36eddde4adf5d362b782') in 0.008809932 seconds
+[Worker0] Imported GUID: 21bf883917114fbf86b41182323db352 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AudioRecorder/AudioRecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f8a218b125bb7ac02a6e73a24604d750') in 0.009336087 seconds
+[Worker0] Imported GUID: 7f600cbd2e2017644acd41761766ea58 - Path: Packages/com.unity.recorder/Editor/Sources/Helpers/UIElementHelper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f6d533a661234a8880e0c15bcbcc2843') in 0.010268401 seconds
+[Worker0] Imported GUID: 03566585fa815644c9e795317dcab24c - Path: Packages/com.unity.recorder/Editor/Assets/movie_16.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '587ede4c35f01b866524508bf2ab0520') in 0.023668792 seconds
+[Worker0] Imported GUID: 0cf66c353df877d4d9f9adcc174fe407 - Path: Packages/com.unity.recorder/Editor/Sources/IAccumulation.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c7e6b8b217e958551f1fd1be9e2945e0') in 0.009109132 seconds
+Worker ready: AssetImportWorkerHW2 2
+[Worker0] Imported GUID: 179ab34cc2bcda648967d7e141a925ae - Path: Packages/com.unity.bindings.openimageio/Plugins/Windows/OIIOBindings.dll - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7598bb60599680e65cd72667cccb1166') in 0.009050162 seconds
+[Worker0] Imported GUID: 16db0b1ebae44fbab4cd92b8b6c61bad - Path: Packages/com.unity.recorder/Editor/Sources/AspectRatio.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c2491b7321ee18a0fc3ae90ac8430a78') in 0.008486136 seconds
+[Worker0] Imported GUID: a6ee9a8f826ced34082d654155141a26 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/MP4/MP4RecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a3a7e743764e4f19c1509bf07daad7f4') in 0.008629575 seconds
+[Worker0] Imported GUID: 668c8c22f8ca3594f82504ce3e8917cf - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AudioRecorder - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3396a9b309faecdb09e68f2231c13bd1') in 0.008722148 seconds
+[Worker0] Imported GUID: dab23848655b5c74ca8b171d95b0864a - Path: Packages/com.unity.recorder/Editor/Assets/Styles/recorder.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9de900015ea61b999451b6c014586a98') in 0.037321234 seconds
+[Worker0] Imported GUID: f88da291941f5f54098ecaf6bf1bc3b9 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTextureSampler/RenderTextureSamplerSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f20859e4a6acfee5de08c2420936c328') in 0.008997324 seconds
+[Worker0] Imported GUID: 331c5756373c2ec47a44ecb0d9b9f656 - Path: Packages/com.unity.recorder/Plugins/Windows/ProResWrapper.dll - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a06085f9eedcd27c0390b9fa50aee6e9') in 0.009208649 seconds
+[Worker0] Imported GUID: f12f632d73764658935f8dc2e01f48b6 - Path: Packages/com.unity.recorder/Editor/Sources/FrameRateProperyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5cdd2788765f4cb7edbe2a3f70c6ab95') in 0.00890968 seconds
+[Worker0] Imported GUID: a1a7a718163cd1345ac8f3bbc9c61fab - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/AOV/AOVCameraInputSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9805fd3461cee849999feb8ec59183fa') in 0.008777652 seconds
+[Worker0] Imported GUID: 30c894a29296f1c43940e5f47ad54522 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/GIFRecorder/GIFRecorderSettingsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7b605a842d49a0d8f0b877d7f45236f4') in 0.009656978 seconds
+[Worker0] Imported GUID: 0a39b3db9ae16074faa9f43e85b7f61b - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/WEBM/WEBMRecorderSettingsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5aefdf6d84a34109dc29efc84c6e387c') in 0.009617324 seconds
+[Worker0] Imported GUID: 3ef190f44e596a94ebfec7c7b888a950 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTexture/RenderTextureInputSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0316c6463bea74ed3804edb25b218b36') in 0.010544358 seconds
+[Worker0] Imported GUID: 54ecff5cf40d5b6e39857bdb2dd6224a - Path: Packages/com.unity.recorder/Plugins/Linux/libGIFWrapper.so - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '04ceeaa6e43579f7c4b0e3e464ceb1f2') in 0.010779758 seconds
+[Worker0] Imported GUID: f0754424e70a79543bf37555de316882 - Path: Packages/com.unity.recorder/Runtime/Base/RefHandle.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7db72508284e1a5866acca2067cedfaf') in 0.010430725 seconds
+[Worker0] Imported GUID: 94057c086e948834b9e0ec209a4b1882 - Path: Packages/com.unity.bindings.openimageio/Plugins/Linux - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '97a57846003141d23a79a330dad8d314') in 0.00873918 seconds
+[Worker0] Imported GUID: 62942ede3727cef4fa191ca09e7d4bb1 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AOVRecorder/AOVRecorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1413994e60ad1960dfb65c118ae7a00d') in 0.008732096 seconds
+[Worker0] Imported GUID: e11d656cf6217cb41ba5443ff354aea7 - Path: Packages/com.unity.recorder/Editor/Sources/RecordersInventory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '098255ca4ed46c02b274796d0e9e78f6') in 0.00878752 seconds
+[Worker0] Imported GUID: 52e9fd31132e95c4499f5396fb9b5054 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/ProResEncoderSettingsPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '04848613255dfa49c4b059097d8e9b52') in 0.009217095 seconds
+[Worker0] Imported GUID: fd32dc75ec04a564baf657a78c7e0e02 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/PNG/PNGRecorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5064ee841ce2db46a7ae8eeeaa29bb25') in 0.00855753 seconds
+[Worker0] Imported GUID: bc923b5a585620e4db67e78dfa654ee0 - Path: Packages/com.unity.recorder/Editor/Assets/d_popout_icon.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dbf290ec92717786b4078c771c989b8e') in 0.012275787 seconds
+[Worker0] Imported GUID: 847b179520b009e4c8d15c296b1cbf35 - Path: Packages/com.unity.recorder/Editor/Unity.Recorder.Editor.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '09002d20ed876953241fc77a1a84b076') in 0.019468834 seconds
+[Worker0] Imported GUID: a9d0429324fe4d41bc311deefe8b584c - Path: Packages/com.unity.recorder/Editor/Sources/RecorderAnalytics.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e56c022261ee5f92429198c2e1530656') in 0.009778054 seconds
+[Worker0] Imported GUID: c0a5d4a5e2dd79c4aacfdca5dc5b998f - Path: Packages/com.unity.recorder/Editor/Sources/AccumulationSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ce3be0fcf528ffe4b516913be6412d15') in 0.010121777 seconds
+[Worker0] Imported GUID: 88f57149cac83e34799c2d4ca8b061a0 - Path: Packages/com.unity.recorder/Editor/Assets/recorder_icon.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '11f81a4cfe55fc5681e85c5897a0293e') in 0.01094098 seconds
+[Worker0] Imported GUID: b5f9edca0e76485d8490267712eb006c - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AnimationRecorder/AnimationRecorderSettingsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '197dfb9220ac1bae14d678de4cc09d3c') in 0.009445622 seconds
+[Worker0] Imported GUID: 6d4cea4a62f94b949b7c8eded57c2ccc - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTextureSampler/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3f60103ab5ade2d35872fcb3ef0c46f4') in 0.009581315 seconds
+[Worker0] Imported GUID: 6c433f8333932f14da0b7f9b6963258e - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera360/Camera360Input.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0726e0cd7e3cfd3f36c7df94563ca4c4') in 0.011292226 seconds
+[Worker0] Imported GUID: 8307b1b09b8c71445afc27e25e7ebc28 - Path: Packages/com.unity.recorder/Editor/ProRes/ProResWrapper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd440b9ff1e332eec759493adec290b35') in 0.010682426 seconds
+[Worker0] Imported GUID: eba378c9cb692fe42a5d65b8ff4fd410 - Path: Packages/com.unity.recorder/Editor/Sources/OutputPathDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '932f213910a20830cb453c529d671313') in 0.009969863 seconds
+[Worker0] Imported GUID: bca35194ecf29384eb80cf4666af720e - Path: Packages/com.unity.bindings.openimageio/Tests/Editor/Data/jpeg_test_70.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e3358c2195ea4f1a333f9070fbf3347f') in 0.011214131 seconds
+[Worker0] Imported GUID: 262e9424f303141518c858a648377c23 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Animation/AnimationInput.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c783155307020d4b90645c3ea45d9ecb') in 0.009979551 seconds
+[Worker0] Imported GUID: ea51754d4f5edd44e8d654f307b936fb - Path: Packages/com.unity.recorder/Plugins/Windows/ProResToolbox.dll - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1105a36f48d110f8eb3966ffaff111dc') in 0.011872061 seconds
+[Worker0] Imported GUID: 6afdecc9a1848f246b874d5c6e241268 - Path: Packages/com.unity.recorder/Editor/Sources/_FrameRequestComponent.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e5fe4f167fee92b167c6681b470892b8') in 0.010060563 seconds
+[Worker0] Imported GUID: 77498de0bbc444fe5989be001bb22573 - Path: Packages/com.unity.recorder/Plugins/macOS/AVFoundationWrapper.bundle - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bf3c5be26b595410b0a82ddd6078a46b') in 0.009903629 seconds
+[Worker0] Imported GUID: b040313a5b5053d4eb159383f8bb161b - Path: Packages/com.unity.recorder/Plugins/Windows/ARM64 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '879388edbf8a85afb5db41ea49843ec7') in 0.009549096 seconds
+[Worker0] Imported GUID: c72a538dcdf385944b1c3b747e7df8df - Path: Packages/com.unity.bindings.openimageio/Plugins/macOS - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2a74b53b17a0a08bb42bfae575cf1b76') in 0.009326048 seconds
+[Worker0] Imported GUID: db284c900559dbf4f8828277b67c6fb0 - Path: Packages/com.unity.recorder/Runtime/Base - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2c184a1f58e987f28e522114c0cd832d') in 0.009354461 seconds
+[Worker0] Imported GUID: f385fa14c01142e3b09545d102c9496d - Path: Packages/com.unity.recorder/Editor/Sources/RecorderItem.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0e7b86fc4f6704b99907bd542df98a23') in 0.009385439 seconds
+[Worker0] Imported GUID: cf2afc31a5d390947b0267f9b07c27fc - Path: Packages/com.unity.recorder/Plugins/Windows - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b947c529dac06b90fe9dd24a85034b38') in 0.009749911 seconds
+[Worker0] Imported GUID: ac646d195f260b94185172ccb39771ea - Path: Packages/com.unity.recorder/Editor/Sources/RecorderPreferences/RecorderPreferencesSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '82f816091215b68a9676fa6aa09dd274') in 0.009654243 seconds
+[Worker0] Imported GUID: b2238b0d8b83469ba64148039293eed3 - Path: Packages/com.unity.recorder/Editor/Sources/TargetedPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a9c65088ce12f698925324ae722197e5') in 0.011495607 seconds
+[Worker0] Imported GUID: 11249b7f3bcc3594084e04d5f69f5163 - Path: Packages/com.unity.bindings.openimageio/Tests/Editor/Data/oiio_reference.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7c1dfd545608ad62cb579325f0dca849') in 0.023739334 seconds
+[Worker0] Imported GUID: bf797226bad40c94c8fa7156bd431165 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera/Shaders/RenderTextureCopy.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'eed706d8d7ae984c4bb7e26f76a53d1a') in 0.011645958 seconds
+[Worker0] Imported GUID: 705506601d70ac144bf0d9182eac6424 - Path: Packages/com.unity.recorder/Editor/Sources/FileNameGeneratorDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2c8cd9349c0f815197c61495cd9671b8') in 0.009361023 seconds
+[Worker0] Imported GUID: f1b5616245464783858c3c5fd95d16b1 - Path: Packages/com.unity.recorder/Editor/Sources/RecordModePropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '16493b0d98e32540e8499c884a5358c0') in 0.009037588 seconds
+[Worker0] Imported GUID: 53dc48d13203e3344bd3cc5baf3913e9 - Path: Packages/com.unity.recorder/Plugins/macOS - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '344b1064b53a4892a7feddc53e4bd648') in 0.008916221 seconds
+[Worker0] Imported GUID: 265a2c6c7e77b6149a0fc4a60bb29cf9 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera360/Camera360InputPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ec37fc4fa6c054ab42f22275fa62cca5') in 0.009512347 seconds
+[Worker0] Imported GUID: 81978aadb8a4640a4acef012808a01dd - Path: Packages/com.unity.recorder/Editor/Sources/BaseTextureRecorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cac5af57da41175d37048e0dc59b9058') in 0.009477021 seconds
+[Worker0] Imported GUID: 82ab39f567ba98643acb451cb076532c - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/EncoderTypeUtilities.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'eb904652c5985d1fc679cc73db5667aa') in 0.010696763 seconds
+[Worker0] Imported GUID: 5b501d9cf4386df4e9a56e39df0a6851 - Path: Packages/com.unity.bindings.openimageio/ValidationExceptions.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '57969be3e24a4689714e6e86e0b5ec6a') in 0.010227044 seconds
+[Worker0] Imported GUID: a0888db1d9f84d6da3b0d5de41f42c2d - Path: Packages/com.unity.recorder/Editor/Sources/RecorderControllerSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1ac55affac2dcf80c69079c1fd529367') in 0.010068878 seconds
+[Worker0] Imported GUID: 856c53159e929467abccd8747fc0fbbb - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/MovieRecorderEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ec665f1575a7e824946db280b01f4883') in 0.009282717 seconds
+[Worker0] Imported GUID: afc6867a22e414a188b45973bcc23273 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Animation/AnimationInputSettingsPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '86cb58b33249d604e17712df9f98ea64') in 0.008805394 seconds
+[Worker0] Imported GUID: 180842267b7175e4c9dedaf1f548db0f - Path: Packages/com.unity.recorder/Editor/Sources/RecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '45ac2996fd084289a0a9d981849c7909') in 0.008934005 seconds
+[Worker0] Imported GUID: f92f6a42d88a468e831af4a846d5b228 - Path: Packages/com.unity.recorder/Editor/Sources/PooledBufferAsyncGPUReadback.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '30a6e969303cb4f974761de5b91ee409') in 0.008920309 seconds
+[Worker0] Imported GUID: f2d97b99b3d44d1a870bc03c8eff1c52 - Path: Packages/com.unity.bindings.openimageio/Editor/Unity.Bindings.OpenImageIO.Editor.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8ad34eb1e2c9fd1e2833c7b5bcc493dd') in 0.009002262 seconds
+[Worker0] Imported GUID: 9f5475fe4437c4df98f9b16d9cc1d8a6 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/AOV/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7334a04728903f7524847002661c75ac') in 0.00899034 seconds
+[Worker0] Imported GUID: 8b8679748edd41c4adb35f155434026f - Path: Packages/com.unity.bindings.openimageio/Editor/OiioWrapper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ec20bf75108002d995e706e60e796dcd') in 0.008873501 seconds
+[Worker0] Imported GUID: d87af21afaaf27f45b873a9ab462bcbb - Path: Packages/com.unity.recorder/Runtime/Base/Unity.Recorder.Base.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7400ef0dc827942c7aec037c4e98b286') in 0.009383927 seconds
+[Worker0] Imported GUID: 81cefa2b805fd4f49ae4de35fe4e869e - Path: Packages/com.unity.recorder/Editor/Assets/animation_recorder.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7228533afdd0d31a37a7ba2eb3aa2ad4') in 0.012136176 seconds
+[Worker0] Imported GUID: 0e6cf5671577b7344ba25c25b4346ce4 - Path: Packages/com.unity.recorder/Editor/Timeline/RecorderTrack.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '175bbadf43fd0cbb8f84d893ed6aee60') in 0.009601193 seconds
+[Worker0] Imported GUID: 25f3f42b06194f9baf10fc2cb14d397e - Path: Packages/com.unity.recorder/Editor/Sources/AspectRatioPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8b9dd25dc58aa12240c19bb51862b386') in 0.009273169 seconds
+[Worker0] Imported GUID: b525cde66ecba8f4db223fda3deeb8fe - Path: Packages/com.unity.recorder/README.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0a1cdcd64b44cf706a863508d91f8dab') in 0.009707402 seconds
+[Worker0] Imported GUID: bce584456d820498b8cc7bd0ff6fdd25 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Animation - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '377b1cb5aa6041d06457290ecda0b4e5') in 0.009561158 seconds
+[Worker0] Imported GUID: 63d70583ee72501448322b133b16ee40 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/ProResEncoder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e23e421b0cb6e68cb19a761359d2aca6') in 0.009895844 seconds
+[Worker0] Imported GUID: 58fe471fc3009fb4d8cf266a5cc5a7a1 - Path: Packages/com.unity.recorder/Editor/Sources/Recorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '94667c9807f42e69f7e1d6413fa18dd3') in 0.010962019 seconds
+[Worker0] Imported GUID: c326ee44aa645544f8fc5c854ad52d8d - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/MP4/MP4RecorderSettingsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e28a49fc154554d0185168a596d484ba') in 0.009695019 seconds
+[Worker0] Imported GUID: c011637fb4c894c56a9178092966b5ac - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Animation/AnimationInputSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '85bd81240c7d8b26f764e89ed84e380f') in 0.009755432 seconds
+[Worker0] Imported GUID: 9f956c0b0f15ce74aac4600909d4e55f - Path: Packages/com.unity.recorder/Editor/Sources/RecorderInput.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '32895b7fa9152e8569f612320f2055e7') in 0.009080859 seconds
+[Worker0] Imported GUID: ccd224ac979050a46ac3ff7254fd693d - Path: Packages/com.unity.bindings.openimageio/Plugins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '432c2b135695e41f5664c9e148b6cbaa') in 0.010183362 seconds
+[Worker0] Imported GUID: fc6c3a8035cb4c8e9e7ebe4c44e8853a - Path: Packages/com.unity.recorder/Runtime/SerializedDictionnary.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6e71f90836ad3db651af523df241c956') in 0.009785898 seconds
+[Worker0] Imported GUID: ad280bc61d5f41f44a0b91cb3364ca2e - Path: Packages/com.unity.recorder/Runtime/Base/Unity.Recorder.Base.api - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3b6bdda7230f65d43625d6e0af536e4c') in 0.009126675 seconds
+[Worker0] Imported GUID: 638d71d378e8c794285fa6bc5cbfcd19 - Path: Packages/com.unity.recorder/Editor/Sources/TextureFlipper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cafe84dbd977a8f9c5a4ef8820ed4d13') in 0.009173253 seconds
+[Worker0] Imported GUID: e435bf89a8bb0bf4abee94a2cc516927 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/GIFRecorder/GIFRecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6b3f38ac5336244abc1301eee22090c3') in 0.008897857 seconds
+[Worker0] Imported GUID: fae41d0797227451ea4b10db1c086647 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Audio/AudioInputSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '997fdf81188c358531116c2b7e0ee2c2') in 0.008955635 seconds
+[Worker0] Imported GUID: d33382d41b60b72438f8e9586f86504a - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/WEBM/WEBMRecorderSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd905f145334238aa6893721e766c2714') in 0.009104333 seconds
+[Worker0] Imported GUID: 4db884a9e7f21294db0cb9409806c549 - Path: Packages/com.unity.recorder/Plugins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7712d413ba77f3c0a0e0d41e17d3ff87') in 0.009600051 seconds
+[Worker0] Imported GUID: 81bb4b24c44c943b49c402cbdad20d9c - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/MovieRecorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '25a1d216ea93aeb7fa502977eeb0a039') in 0.010083295 seconds
+[Worker0] Imported GUID: 7be4a1e8b0e041d488d5c5b413073863 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/GameView/GameViewInputPropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8723412c30193c9dc7109ce6381a0a0e') in 0.009331979 seconds
+[Worker0] Imported GUID: 307d31ebf2384b01bb70259435918b92 - Path: Packages/com.unity.recorder/Editor/Sources/RecorderControllerSettingsPresetEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd5091273f85f928e45d994406527657b') in 0.010035065 seconds
+[Worker0] Imported GUID: a93936c560512aa4f89b283d08d5b3f0 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/GameView/GameViewInputSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '67a596422dede879653a63612b7852e3') in 0.009207346 seconds
+[Worker0] Imported GUID: 27b3c3eacdc894cc1bb7c498c451d9ef - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera/Shaders/CameraInputCopy.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b44defe9586cea6fc12a85a338b991d2') in 0.01023582 seconds
+[Worker0] Imported GUID: 832a8ef6e615e9a41a5076e1c9a43782 - Path: Packages/com.unity.recorder/Runtime/Unity.Recorder.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '63fe8e9b481e3f3989a3f7aaf8f54b0c') in 0.010277408 seconds
+[Worker0] Imported GUID: 428b801a7dffc63478778d1e864cb2b1 - Path: Packages/com.unity.recorder/Runtime/Unity.Recorder.api - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1d00fcd6e7e1bcfe00fecd15713030e3') in 0.009812038 seconds
+[Worker0] Imported GUID: 283ddf24019ac4f44919adb174a39d36 - Path: Packages/com.unity.recorder/ValidationExceptions.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ca57ef87c22981f3da3ba9656e631f23') in 0.009112319 seconds
+[Worker0] Imported GUID: b5b9496d9b39e674abf5b3bd1ad57a67 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/MP4/MP4Recorder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7e83d17b8ef18990b0fd543c075ad872') in 0.009245137 seconds
+[Worker0] Imported GUID: d0148fe9343f938459039691719fee0f - Path: Packages/com.unity.recorder/Editor/Assets/Styles - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '41b68e5f4048fa8e37b9a4f6a3a3f761') in 0.00889422 seconds
+[Worker0] Imported GUID: 1834a22c04ceccf42802f86b5251828e - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AOVRecorder - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd6437a6c84bada8b4602d364525d8cc5') in 0.009328663 seconds
+[Worker0] Imported GUID: f9739d4c6f3534493b7ee491495aabd5 - Path: Packages/com.unity.recorder/Third Party Notices.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '13a81f0d2fe39f06e7ef17a90711b5b1') in 0.009239246 seconds
+[Worker0] Imported GUID: 52b9c3732a14dd14d9427ced3524773f - Path: Packages/com.unity.recorder/Editor/Assets/d_customrecorder_16.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9c0818328649dbe6ed97346074ffd77c') in 0.013309651 seconds
+[Worker0] Imported GUID: 7de59e38a5edf344794b4a5cb8baaae0 - Path: Packages/com.unity.recorder/Editor/Assets/Styles/recorder_lightSkin.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9da6e0887a2b5b8ee0bfbcf7e338f1e5') in 0.011967299 seconds
+[Worker0] Imported GUID: 7ca6f2f2929fbe8418a6c555661f1893 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/CoreEncoder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4cd0cfe724321e81d9c4ea341b78c55d') in 0.009236871 seconds
+[Worker0] Imported GUID: 6da78ae6f9d77af439627f61c6649706 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/GIFRecorder - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b7c324eed7c2f7b25a0017cb6d0bfcd0') in 0.0091825 seconds
+[Worker0] Imported GUID: 92835046bab1cf048aa82ff3ccac8af6 - Path: Packages/com.unity.recorder/Editor/Sources/RecorderPreferences/SettingAsset.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8fe2bb526c6cef5a81b96306527985e6') in 0.009039281 seconds
+[Worker0] Imported GUID: 463def677815a3a408a3f8435fef7057 - Path: Packages/com.unity.bindings.openimageio/Plugins/Linux/libOIIOBindings.so - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '77e80792e920dd09d26bed90a9488b6b') in 0.009968661 seconds
+[Worker0] Imported GUID: b94e4c4dfdb07cb43b93121a598b6e00 - Path: Packages/com.unity.recorder/Editor/Timeline/RecorderSelector.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '71eb31d2613e41216a46d29fbd092379') in 0.009464698 seconds
+[Worker0] Imported GUID: 24232f5f40aada14995712e173fc8bd7 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/RenderTextureSampler/Shaders/BS4Accumulate.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ebce47979d4820566ce813a667d23166') in 0.009274652 seconds
+[Worker0] Imported GUID: e039a2d69f350aa44bcc7f9ad9122108 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/AOV - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '41413201d3554c489178d37f39b0e157') in 0.009057486 seconds
+[Worker0] Imported GUID: 118aaf48522942c3953f714a6739285e - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/AnimationRecorder - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cd9e1354986ae65cf85e3834cff1c5f5') in 0.011681264 seconds
+[Worker0] Imported GUID: 14673d5e9bd0dde438fbb131f36366a7 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Encoder/RecordingContext.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bcc3f8d8c2d42dd733e7e0446f3a1250') in 0.01375769 seconds
+[Worker0] Imported GUID: dda506d1ea0dca8673769d591c73e049 - Path: Packages/com.unity.bindings.openimageio - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b8cbe4ee1589afe157c14db47332c2eb') in 0.013628297 seconds
+[Worker0] Imported GUID: 72d53ddfa043c4442ae634e6b6486032 - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '464ebde043ad379637c2ce1d07b70a5b') in 0.016155536 seconds
+[Worker0] Imported GUID: fab9fdf449e96f64b8e57bf5d2d1393a - Path: Packages/com.unity.recorder/Editor/Timeline/RecorderClipTimelineEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '86b9fe9c921c556d9c38205c19e83141') in 0.0103422 seconds
+[Worker0] Imported GUID: 74df144a4ec2f8049a8fdc52d05d35bc - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/GameView/GameViewInput.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6d61ca73ff7c71fa9dc1d2c4590f4598') in 0.011847846 seconds
+[Worker0] Imported GUID: 25300c4a5b7e63a4687124ec2617423b - Path: Packages/com.unity.recorder/Plugins/Linux - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dc78123285abeab5270cda8c92b331b8') in 0.009096629 seconds
+[Worker0] Imported GUID: ca62b38426adb1d47ad6cd6c94001b6a - Path: Packages/com.unity.recorder/Editor/Sources/RecorderSettingsAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'da1a6f97dc381baaaef45eb19964b90f') in 0.009106508 seconds
+[Worker0] Imported GUID: 4bd7f4201fbd4c84d96b0479c6f986fa - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/Camera/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '50dbc71ef259f9e0a06a1e3bdae9cdd2') in 0.009082172 seconds
+[Worker0] Imported GUID: 860e2fa82cdb5ca47ba9e65328cd0ffb - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/GameView - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '62534c82d8fb5415b1190ad61eae6c44') in 0.00923075 seconds
+[Worker0] Imported GUID: 4fdf6e0f64f22254ba6554fef1ef3412 - Path: Packages/com.unity.recorder/Editor/Assets/popout_icon.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5ab2102bd137bf285152a2872dac257a') in 0.011746877 seconds
+[Worker0] Imported GUID: 5970c978d42818b43afb0f5236f0c16a - Path: Packages/com.unity.recorder/Editor/Assets/imagesequence_16.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c23dd142c435f95838114a33fa762b8e') in 0.028315245 seconds
+[Worker0] Imported GUID: f3941bff05f4e88479d3c4741b63bbf1 - Path: Packages/com.unity.recorder/Editor/Sources/InternalEnums.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '73ce01bc0a8113b263db2f2738dc6675') in 0.009516154 seconds
+[Worker0] Imported GUID: 4e5275e7362969c4b95956236c412e49 - Path: Packages/com.unity.bindings.openimageio/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '42a6d9efb37a9c8d48efea7c9da36b1d') in 0.009292375 seconds
+[Worker0] Imported GUID: a8e14f8e28927a942b7bdd72f1c0ea8e - Path: Packages/com.unity.recorder/Runtime - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '014001c75b6bdcc5d427bc68c2d82d46') in 0.008992535 seconds
+[Worker0] Imported GUID: b21b1f9cc8be9cd48afba097330096dd - Path: Packages/com.unity.bindings.openimageio/Tests/Editor/Data - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '43cfb87bc80322da77daeca44805c6a4') in 0.008955595 seconds
+[Worker0] Imported GUID: e37930a0cc67be24bb961bcb1f8513a1 - Path: Packages/com.unity.recorder/Editor/Assets/customrecorder_16.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '32ac60f74220f0d8a37fc2f18f71b0da') in 0.012648474 seconds
+[Worker0] Imported GUID: 95a724d563193a84eb5171cb90cad60f - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Inputs/AOV/AOVCameraInput.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'de64eb4eb2cc2487d65cab811430f38d') in 0.010039714 seconds
+[Worker0] Imported GUID: 940a3fecc672f9f4ba7ab2b5b71a63a5 - Path: Packages/com.unity.recorder/Editor/Assets/Styles/recorder_darkSkin.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6eec2b255ee6fa7b43f3ececccbd3eba') in 0.010416738 seconds
+[Worker0] Imported GUID: 2bd83f31da5b4435ac97cde1432e7d63 - Path: Packages/com.unity.recorder/Editor/Sources/EditableLabel.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '14a8ba300399debb260203353d7f56d9') in 0.009985211 seconds
+[Worker0] Imported GUID: aa370a8b68794eb4821cc6306bcc4aa9 - Path: Packages/com.unity.bindings.openimageio/LICENSE.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f987ad5fc7d0cb562fb4f2f6f941bc7b') in 0.008980272 seconds
+[Worker0] Imported GUID: 425c789e99033a44d82b5b5049c2327c - Path: Packages/com.unity.bindings.openimageio/Tests/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '25ef02fa9c25945d69f9901d76dd3cb3') in 0.0093008 seconds
+[Worker0] Imported GUID: c2d3ad15b5919624bbfcb237e18fd2ec - Path: Packages/com.unity.recorder/Editor/Sources/RecorderEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '421b9475e1bc4760b3a93e62528feac9') in 0.010491508 seconds
+[Worker0] Imported GUID: 700d2edef5a34c578c439d47e62f788a - Path: Packages/com.unity.recorder/Editor/Sources/Helpers/ImageWriterHelper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '41c8e63308e46306aecf7be48a31001d') in 0.009368949 seconds
+[Worker0] Imported GUID: 2c5a5225f6178924387beea855f301d4 - Path: Packages/com.unity.bindings.openimageio/Tests/Editor/Unity.Bindings.OpenImageIO.Editor.Tests.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c1ca977bc5fe5d0c19c415de1cf84924') in 0.009261227 seconds
+[Worker0] Imported GUID: b05c11a3c18e84fa391e38ed66c22189 - Path: Packages/com.unity.recorder/Editor/Sources/RecorderOptions.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '001738c9dc523f1bc40d3591b84e22c4') in 0.009489925 seconds
+[Worker0] Imported GUID: e96e2b10e7bc22b41b32dd0cb1bbcd14 - Path: Packages/com.unity.recorder/Editor/Assets/d_aovimagesequence_16.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1a35253754eef0a33da737ed41749b64') in 0.013030609 seconds
+[Worker0] Imported GUID: 8407d226afd36044fb3531b73342f6ab - Path: Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/MP4 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5f2feeb83217aaf52a768a03c3f6507a') in 0.009825282 seconds
+TrimDiskCacheJob: Current cache size 0mb
+Curl error 6: Could not resolve: cdp.cloud.unity3d.com:443
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "oZ94VDnp"... (expires: 2026-10-20T04:14:33Z)
+Curl error 28: Failed to connect to services.unity.com port 443 after 140862 ms: Error
+UnityConnectWebRequestException: Token Exchange failed due a failure with the web request.
+  at UnityEditor.Connect.TokenExchange.VerifyTokenExchangeResponse (UnityEngine.Networking.UnityWebRequest exchangeRequest) [0x00009] in /home/bokken/build/output/unity/unity/Editor/Mono/UnityConnect/ServiceToken/TokenExchange/TokenExchange.cs:106 
+  at UnityEditor.Connect.TokenExchange.TokenExchangeRequestAsync (UnityEditor.Connect.TokenExchangeRequest tokenExchangeRequest, System.Threading.CancellationToken cancellationToken) [0x00195] in /home/bokken/build/output/unity/unity/Editor/Mono/UnityConnect/ServiceToken/TokenExchange/TokenExchange.cs:89 
+  at UnityEditor.Connect.TokenExchange.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) [0x00031] in /home/bokken/build/output/unity/unity/Editor/Mono/UnityConnect/ServiceToken/TokenExchange/TokenExchange.cs:33 
+  at UnityEditor.Connect.ServiceToken.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) [0x000f3] in /home/bokken/build/output/unity/unity/Editor/Mono/UnityConnect/ServiceToken/ServiceToken.cs:50 
+  at UnityEditor.Connect.UnityConnect.RequestNewServiceToken () [0x0003b] in /home/bokken/build/output/unity/unity/Editor/Mono/UnityConnect/UnityConnect.bindings.cs:566 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__7_0 (System.Object state) [0x00000] in <fe1d7a670f4f4d078f963f4439913bcb>:0 
+  at UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () [0x00000] in /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:156 
+  at UnityEngine.UnitySynchronizationContext.Exec () [0x00052] in /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:84 
+  at UnityEngine.UnitySynchronizationContext.ExecuteTasks () [0x0000e] in /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:110 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:50)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/UnityConnect/ServiceToken/TokenExchange/TokenExchange.cs Line: 106)
+
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/a5a467f9-d032-41ce-ba3f-b3920623174e", HTTP error code 401
+.[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve: engine-data.services.api.unity.com:443
+Curl error 6: Could not resolve host: engine-data.services.api.unity.com
+Curl error 6: Could not resolve host: engine-data.services.api.unity.com
+Curl error 6: Could not resolve host: engine-data.services.api.unity.com
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=5b8199e967869e052b809c72ef57e440): Total: 0.053 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=2701977284ca661c89ab500557581350): Total: 0.051 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Unhandled description string [
+Unhandled description string ]
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 169428 ms: Error
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Asset Pipeline Refresh (id=0edcae352859ed3d38fcd7c9fceae1ad): Total: 0.048 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=db5e4ad85ec054d2d89617162f7ea6f3): Total: 0.050 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=7b7003ccebebb3f27b8a0cfaec049eea): Total: 0.051 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=050858bf51d5f7845ab31cd2b8f9b82f): Total: 0.047 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=3d16d00ebed61948c9aeb340cc39a17e): Total: 0.053 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+AcceleratorClientConnectionCallback - disconnected - :0
+Unhandled description string [
+Unhandled description string ]
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Asset Pipeline Refresh (id=2140088e0a9eab4c9815a2df335d49ea): Total: 0.057 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Curl error 42: Callback aborted
+Asset Pipeline Refresh (id=1919ed3555ef361c8ba0c919dd71c826): Total: 0.085 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=c6dce4762e54aa8c2a6f746e41b2d1c4): Total: 0.060 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=9c4c49baeac3c5fdcaa8b5a3f77857c7): Total: 0.054 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+[Licensing::Client] Successfully resolved entitlement details

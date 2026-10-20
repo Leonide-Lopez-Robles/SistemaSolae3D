@@ -1,0 +1,56 @@
+[2026-10-20T02:01:00.926Z][INFO] Command-line: /home/leonideslopezrobles/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager server -s 259 --ipc-path /tmp/Unity-Upm-259.sock -l 2 --log-file /home/leonideslopezrobles/SistemaSolae3D/Logs/upm.log
+[2026-10-20T02:01:00.946Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-259.sock).
+[2026-10-20T02:01:00.947Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-259.
+[2026-10-20T02:01:02.146Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T02:01:02.165Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T02:01:02.297Z][INFO] project:list-packages --> 200 (151 ms)
+[2026-10-20T02:05:37.288Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:05:37.289Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:05:37.294Z][INFO] project:list-packages --> 200 (275129 ms)
+[2026-10-20T02:05:37.407Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-20T02:05:37.412Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-10-20T02:05:37.417Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T02:05:37.506Z][INFO] project:list-packages --> 200 (89 ms)
+[2026-10-20T02:05:40.689Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T02:05:40.720Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T02:05:40.806Z][INFO] project:list-packages --> 200 (117 ms)
+[2026-10-20T02:05:40.851Z][INFO] project:list-packages --> 200 (132 ms)
+[2026-10-20T02:05:40.933Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T02:05:41.028Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-20T02:05:41.037Z][INFO] project:list-packages --> 200 (104 ms)
+[2026-10-20T02:05:41.038Z][INFO] config:project:get-registries --> 200 (10 ms)
+[2026-10-20T02:05:43.332Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T02:05:43.344Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T02:05:43.848Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T02:05:43.919Z][INFO] project:list-packages --> 200 (71 ms)
+[2026-10-20T02:05:46.673Z][ERROR] Error: connect EHOSTUNREACH 8.233.179.0:443
+[2026-10-20T02:07:56.551Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:07:56.552Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:07:56.552Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:11:37.735Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:14:02.853Z][ERROR] Error: getaddrinfo EAI_AGAIN packages.unity.com
+[2026-10-20T02:14:24.812Z][ERROR] Error: connect EHOSTUNREACH 8.233.179.0:443
+[2026-10-20T02:15:38.787Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T02:16:40.839Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:17:54.567Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:17:54.568Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:17:54.568Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:18:56.007Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:19:15.502Z][ERROR] Error: connect EHOSTUNREACH 8.233.179.0:443
+[2026-10-20T02:19:16.556Z][ERROR] Error: connect EHOSTUNREACH 8.233.179.0:443
+[2026-10-20T02:19:19.091Z][INFO] project:list-packages --> 200 (815759 ms)
+[2026-10-20T02:19:19.092Z][INFO] project:list-packages --> 200 (815748 ms)
+[2026-10-20T02:21:27.559Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T02:21:27.561Z][INFO] project:list-packages --> 200 (348774 ms)

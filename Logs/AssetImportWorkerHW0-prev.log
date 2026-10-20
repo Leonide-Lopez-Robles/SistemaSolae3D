@@ -1,0 +1,24 @@
+Unity Editor version:    6000.6.4f1 (12bfff696524)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #202607241434~1787955023~24.04~38a419f SMP PREEMPT_DYNAMIC Fri A
+Kernel version:          7.1.5-76070105-generic
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        15832 MB
+Date:                    2026-10-20T01:59:37Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-leonideslopezrobles" at "2026-10-20T01:59:37.271958Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              e8fe3dc1b01d4d4196b4558d3f1fae98
+  Correlation Id:          1080af18ebf43050b9cd24dd1f3b53e6
+  External correlation Id: 9013158073414615017
+  Machine Id:              L0xSD04HkgOfZMjVl/dGIId3AU8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-leonideslopezrobles" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-leonideslopezrobles-notifications" at "2026-10-20T01:59:37.273631Z"
+[Licensing::Module] Licensing Background thread has ended after 0.00s
+Selected window backend: (null) 
